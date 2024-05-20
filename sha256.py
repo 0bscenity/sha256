@@ -36,7 +36,7 @@ def export_to_csv(results, output_file):
 if __name__ == "__main__":
     """variables"""
     # keep r string otherwise it won't scan
-    directory_to_scan = r"C:\Users\braden\Downloads\Telegram Desktop\danny brown"  # change directory. might only work if this script is on the same drive as path
+    directory_to_scan = r"C:\Usersraden\XXXXXXXX"  # change directory. might only work if this script is on the same drive as path
     output_csv_file = "output_sha256.csv"
     results = scan_directory(directory_to_scan)
     export_to_csv(results, output_csv_file)
